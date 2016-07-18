@@ -10,7 +10,7 @@ RUN alias ls="ls --color" && \
 	alias ll="ls -l --color=auto"
 
 RUN useradd -m -d /home/jboss -p jboss jboss  && \
-	echo 'root:redhat' | chpasswd &&
+	echo 'root:redhat' | chpasswd
 
 ENV REFRESHED_AT 20160718
 
