@@ -12,7 +12,7 @@ RUN alias ls="ls --color" && \
 RUN useradd -m -d /home/jboss -p jboss jboss  && \
 	echo 'root:redhat' | chpasswd
 
-ENV REFRESHED_AT 20160718
+ENV REFRESHED_AT 20160823
 
 RUN yum -y update && \
 	yum -y install epel-release && \
